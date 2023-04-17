@@ -1,3 +1,5 @@
+@media screen and (max-width: 325px)
+{
 .box
 {
     background-color: rgba(15, 15, 15, 0.575);
@@ -68,4 +70,80 @@
     background-color: rgba(2, 0, 3, 0.253);
     color: rgba(253, 228, 5, 0.637);
     padding: 15px;
+}
+}
+
+@media screen and (max-width: 380px)
+{
+    .box
+    {
+        background-color: rgba(15, 15, 15, 0.575);
+        position: absolute; top: 120px; left: 69px;
+        padding: 120px;
+        padding-bottom: 350px;
+        border-radius: 20px;
+    }
+
+    .logo
+    {
+        width: 50px;
+        position: absolute; left: 162px; top: 50px;
+    }
+
+    .text
+    {
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 6px;
+        position: absolute; top: 150px; left: 105px;
+        color: rgba(252, 252, 0, 0.699);
+    }
+
+    .p
+    {
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 17px;
+        position: absolute; top: 200px; left: 120px;
+        color: rgba(255, 255, 255, 0.479);
+    }
+
+    .d
+    {
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 10px;
+        position: absolute; top: 380px; left: 80px;
+        color: rgba(255, 255, 255, 0.479);
+    }
+
+    .swl
+    {
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 15px;
+        position: absolute; top: 350px; left: 134px;
+        color: rgb(158, 25, 25);
+    }
+
+    .btr
+    {
+        position: absolute; top: 455px; left: 123px;
+    }
+
+    .btrs
+    {
+        background-color: transparent;
+        border-color: black;
+        color: rgba(255, 255, 255, 0.699);
+        border-radius: 15px;
+        padding: 15px;
+    }
+
+    .btrs:hover
+    {
+        background-color: rgba(2, 0, 3, 0.253);
+        color: rgba(253, 228, 5, 0.637);
+        padding: 15px;
+    }
 }
